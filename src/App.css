@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  text-decoration: underline;
+  margin: 20px 0;
+  text-align: center;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #57a653;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.correctos {
+  color: green;
+  font-weight: bold;
+}
+
+.regulares {
+  color: orange;
+  font-weight: bold;
+}
+
+.incorrectos {
+  color: red;
+  font-weight: bold;
+}
+
+.historial-intentos {
+  max-height: 60vh;
+  overflow-y: auto;
+  width: 90%;
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.game-summary {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-summary h3 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.game-summary p {
+  font-size: 1.1em;
+  color: #666;
+  line-height: 1.5;
+}
+
+.game-summary ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.game-summary ul li {
+  font-size: 1.1em;
+  color: #555;
+}
