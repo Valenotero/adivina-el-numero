@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Adivina-El-Numero/static/css/main.ee0aa38d.css",
+    "main.js": "/Adivina-El-Numero/static/js/main.5ac57e90.js",
+    "static/js/453.3827b6bd.chunk.js": "/Adivina-El-Numero/static/js/453.3827b6bd.chunk.js",
+    "index.html": "/Adivina-El-Numero/index.html",
+    "main.ee0aa38d.css.map": "/Adivina-El-Numero/static/css/main.ee0aa38d.css.map",
+    "main.5ac57e90.js.map": "/Adivina-El-Numero/static/js/main.5ac57e90.js.map",
+    "453.3827b6bd.chunk.js.map": "/Adivina-El-Numero/static/js/453.3827b6bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee0aa38d.css",
+    "static/js/main.5ac57e90.js"
+  ]
+}
